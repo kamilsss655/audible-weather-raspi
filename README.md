@@ -1,4 +1,4 @@
-#Talking weather for Raspberry Pi
+#Audible weather for Raspberry Pi
 Audible messages regarding weather conditions and calendar events using Google TTS (Text To Speech) and Wunderground weather API.
 ##Dependencies
 The mpg123 package is required to play messages. This script automatically stops music played by MPD deamon for the duration of the message and resumes playback after its done. Please make sure that you have following packages installed:
