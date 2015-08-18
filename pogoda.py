@@ -13,12 +13,12 @@ pre_event = 'Uwaga komunikat: '# przedmowa przed zdarzeniem dnia
 fragmentation_factor = 100; #co ile znaków dzielić tekst (domyślnie 100 dla google tts)
 mpd_playing=False #zmienna globalna do przerywania odtwarzanej myzyki przez serwer MPD na czas trwania komunikatu - nie zmieniac!
 json_forecast = 'http://api.wunderground.com/api/b2b4a1ad0a889006/forecast/conditions/lang:PL/q/Poland/Lublin.json' #sciezka dostępu do pliku json z pogodą
-imieniny_path = '/home/pi/moje/python/pogoda/data/imieniny.txt'#sciezka do pliku z imieninami
-event_path = '/home/pi/moje/python/pogoda/data/events.txt' #sciezka do pliku ze zdarzeniami (ważne daty. np urodziny członków rodziny itd)
-beep_1_path = '/home/pi/moje/python/pogoda/sounds/news_intro.mp3'
-beep_2_path = '/home/pi/moje/python/pogoda/sounds/kogut.mp3'
-beep_3_path = '/home/pi/moje/python/pogoda/sounds/chime3.mp3'
-beep_4_path = '/home/pi/moje/python/pogoda/sounds/bloop.mp3'
+imieniny_path = 'data/imieniny.txt'#sciezka do pliku z imieninami
+event_path = 'data/events.txt' #sciezka do pliku ze zdarzeniami (ważne daty. np urodziny członków rodziny itd)
+beep_1_path = 'sounds/news_intro.mp3'
+beep_2_path = 'sounds/kogut.mp3'
+beep_3_path = 'sounds/chime3.mp3'
+beep_4_path = 'sounds/bloop.mp3'
 replace_words = {'temp.':'temperatura', 'Min.':'minimalna', 'pd.':' południowo', 'pn.':' połnocno', 'zach.':' zachodni', 'wsch.':' wschodni', 'op.':' opady', 'Maks.':'maksymalna', '~':''}
 
 #funkcja do dzielenia tekstu na kawalki
