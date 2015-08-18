@@ -18,7 +18,7 @@ Play audible message regarding current time:
 python pogoda.py --time
 ```
 ##Usage
-Add folowing entries to crontab by running to execute this script on a regular time basis:
+Add folowing entries to crontab to execute this script on a regular time basis by running:
 ```
 crontab -e
 ```
